@@ -25,7 +25,7 @@ repo_name = "CI_MLOPS"
 mlflow.set_tracking_uri(f"{dagshub_url}/{repo_owner}/{repo_name}.mlflow")
 
 # Specify the name of the model that we want to load and test
-model_name = "Best Model123"  # This is the model name registered in MLflow
+model_name = "Best Model"  # This is the model name registered in MLflow
 
 # Unit test class to test the loading of models from the 'Staging' stage in MLflow
 class TestModelLoading(unittest.TestCase):
